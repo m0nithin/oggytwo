@@ -8,13 +8,17 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
-
 @media (min-width:500px) {
 
   .main {
     height: 100vh;
+    background-image: url('/homebg.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }
+
 
 body {
   margin: 0
